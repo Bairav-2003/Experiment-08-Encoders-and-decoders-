@@ -66,7 +66,7 @@ D7 = X Y Z
 
 
 ### PROGRAM (ENCODER)
-
+~~~
 Program for Endocers and Decoders  and verify its truth table in quartus using Verilog programming.
 Developed by:BAIRAV SKANDAN LOHA
 RegisterNumber:  212221230010
@@ -78,6 +78,7 @@ or(a,d4,d5,d6,d7);
 or(b,d2,d3,d6,d7);
 or(c,d1,d3,d5,d7);
 endmodule
+~~~
 
 
 
@@ -106,6 +107,7 @@ endmodule
 
 
 ### PROGRAM(DECODER):
+~~~
 
 Program for Endocers and Decoders  and verify its truth table in quartus using Verilog programming.
 Developed by: BAIRAV SKANDAN LOHA
@@ -125,6 +127,7 @@ assign d6 = (a&b&~c);
 assign d7 = (a&b&c);
 
 endmodule 
+~~~
 
 ### RTL LOGIC:
 
